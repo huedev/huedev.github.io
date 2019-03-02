@@ -1,0 +1,19 @@
+body {
+    color: #b1b1d5;
+    background-color: #6363ab;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1 {
+    color: #fff;
+}
+
+a {
+    color: #b1b1d5;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
