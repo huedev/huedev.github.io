@@ -10,22 +10,38 @@
 
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="../main.css">
 
-        <link rel="icon" href="favicon.png" type="image/png">
+        <link rel="icon" href="../favicon.png" type="image/png">
 
         <title>hue</title>
     </head>
     <body>
-        <div class="container">
-            <div class="row justify-content-center align-items-center vh-100">
-                <div class="col-8 text-center">
-                    <img class="img-fluid mx-auto d-block" src="turnip.png">
-                    <h1 class="text-center">hue</h1>
-                    <a href="./knifemare/index.html">knifemare</a> &bull; <a href="#">art</a>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="../turnip.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    hue
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">knifemare</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">art</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
+        
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
